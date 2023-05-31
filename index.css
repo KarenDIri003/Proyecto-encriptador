@@ -20,20 +20,20 @@ main{
 }
 
 .cajaprincipal{
-    margin: 150px 0px 0px 150px;
+    margin: 150px 0px 0px 70px;
     padding: 0px 20px 0px 0px;
 }
 
 .areaprincipal{
     background: none;
-    width: 570px;
+    width: 700px;
     height: 370px;
     resize: none;
     border: none;
     color: darkblue;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: bold;
     
 }
 
@@ -99,6 +99,7 @@ main{
 
 .botones{
     display:flex;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -174,53 +175,56 @@ main{
 }
 
 footer{
-    margin: 40px;
+    width: 100%;
+    margin: 40px 0 0 0 ;
     text-align: center;
-    padding: 20px;
 }
 
 .copyright{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     color: darkblue; 
-    margin: 13px;
+    padding: 13px 0 40px 0;
 }
 
 .logoempresa{
     width:120px;
    
 }
-@media screen and (max-width: 820px){
+@media screen and (min-width: 360px) and (max-width: 800px){
+    body{
+        width: auto;
+    }
     main{
         display: block;
+        justify-content: center;
         width:auto;
     }
-
     .vector{
         margin: 45px 0 0 30px;
     }
+
     .cajaprincipal{
-        height: auto;
-        margin: 150px 20px 20px 20px;
+        width: auto;
+        justify-content: center;
         padding: 0 0 0 10px;
     }
     .areaprincipal{
         font-size: 35px;
-        height: 700px;
-        width: 700px;
+        padding: 0 80px 0 0 ;
+        height: calc(100vh - 60px);
+        width: calc(100vh - 300px);
     }
 
     .botones{
-        display: flex;
-        justify-content: center;
-        margin: 0 0 20px 0;
+        margin: 0 0 0 30px;
         
     }
 
     .cajasecundaria{
-        width:720px;
+        width:700px;
         height: auto;
-        margin: 70px 50px 20px 50px;
+        margin: 70px auto 20px auto;
     }
 
     .imagendesencriptador{
@@ -236,12 +240,17 @@ footer{
         width: auto;
         height: auto;
         justify-content: center;
-        padding: 30px 20px 0 20px;
+        padding: 30px 20px 0 25px;
         margin-bottom: 30px;
     }
     .botoncopiar{
         margin: 0 236px 20px 236px;
     }
 
+    footer{
+        width: 100%;
+        justify-content: center;
+        margin: 30px 0 0 70px;
+    }
     
 }
