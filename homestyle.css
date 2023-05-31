@@ -11,3 +11,24 @@ header{
     width:25px;
     margin: 40px 0 0 80px;
 }
+
+main{
+    display:flex;
+    justify-content: space-between;
+}
+.cajaprincipal{
+    margin: 150px 0px 0px 150px;
+    padding: 0px 20px 0px 0px;
+}
+.areaprincipal{
+    background: none;
+    width: 570px;
+    height: 370px;
+    resize: none;
+    border: none;
+    color: darkblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold ;
+    
+}
