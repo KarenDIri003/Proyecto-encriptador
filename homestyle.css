@@ -40,3 +40,31 @@ main{
     background:white;
     border-radius: 10px;
 }
+
+#mensajeimagendesencriptado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.imagendesencriptador{
+    width: 230px;
+    margin: 0 0 0 27px;
+}
+
+.mensajedesencriptado{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 5px 40px 10px 40px;
+    text-align: center;
+
+}
+.mensajedesencriptado2{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 5px 60px 5px;
+    text-align: center;
+     
+}
