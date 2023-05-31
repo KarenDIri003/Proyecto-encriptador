@@ -1,8 +1,3 @@
-function ocultar(){
-    document.getElementById("mensajeimagendesencriptado").style.display = "none";
-    document.getElementById("desencriptado").style.display = "block";
-}
-
 function encriptar(){
     const text = document.getElementById("inputText")
     let nuevoTexto = ""
@@ -45,6 +40,11 @@ function desencriptar(){
     const mensaje = document.getElementById("desencriptado").getElementsByTagName("p")[0]
     console.log("mensaje", mensaje)
     mensaje.innerHTML = nuevoTexto;
+}
+
+function ocultar(){
+    document.getElementById("mensajeimagendesencriptado").style.display = "none";
+    document.getElementById("desencriptado").style.display = "block";
 }
 
 function encriptardesencriptar(textoCambiar, textoNuevo, textoCompleta) {
