@@ -46,3 +46,13 @@ function desencriptar(){
     console.log("mensaje", mensaje)
     mensaje.innerHTML = nuevoTexto;
 }
+
+function encriptardesencriptar(textoCambiar, textoNuevo, textoCompleta) {
+    return textoCompleta.split(textoCambiar).join(textoNuevo);
+}
+
+async function copiarTexto(){
+    const text = document.getElementById("desencriptado").getElementsByTagName("p")[0].innerText
+    await navigator.clipboard.writeText(text);
+    alert("Texto copiado")
+}
