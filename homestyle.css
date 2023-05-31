@@ -1,0 +1,13 @@
+body {
+    background: #E7E7E7;
+    
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.vector{
+    width:25px;
+    margin: 40px 0 0 80px;
+}
